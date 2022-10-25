@@ -1,0 +1,59 @@
+body{
+    font-family: "Roboto 2","Helvetica Neue";
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+.encabezado{
+    padding-top: 3%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
+}
+.contenedorIcon{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    margin: 0;
+    background: #70c26f;
+    color: #fff;
+    color: yellow;
+    font-size: 3rem;
+}
+.icon:hover{
+    opacity: 0.9;
+    filter: alpha(opacity=9);
+    color:darkgreen;
+}
+.usuario{
+    font-size: 1.2rem;
+}
+.nav,ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 30%;
+    float: left;
+    font-size: 1.4rem;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .5);
+}
+li:hover{
+    background: #C2F98E;
+    opacity: .8;
+    filter: alpha(opacity=8);
+}
+.nav-admin{
+    width: 20%;
+    font-size: 1rem;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="estilos/tienda.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <div class="contenido">
+        <form action="" name="registrar" method="post" class="form">
+            <p id="titulo_de_pagina">Registrate</p>
+            <input type="text" required name="nombre" placeholder="Nombre">
+            <input type="text" required name="apellido" placeholder="Apellido">
+            <input type="text" required name="direccion" placeholder="Direccion">
+            <input type="text" required name="codigo_postal" placeholder="Codigo Postal">
+            <input type="text" required name="ciudad" placeholder="Ciudad">
+            <input type="email" required name="correo_electronico" placeholder="correo@correo.com">
+            <input type="password" required name="contrasena" placeholder="********">
+            <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+            <br>
+            <div class="contenedorIcon">
+                <input type="submit" value="&rarr;" id="enviar" class="icon" name="enviar">
+            </div>
+            <a href="index.php">Regresar</a>
+        </form>
+    </div>
+</body>
+</html>
